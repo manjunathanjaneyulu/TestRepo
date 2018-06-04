@@ -48,8 +48,9 @@ public class UsingStoredCookies {
 		catch(Exception ex) {
 			ex.printStackTrace();
 		}
-		driver.get("https://www.facebook.com");			
+		driver.get("https://www.facebook.com");		
+		System.out.println("Adding through GitHub");
 		}
-	System.out.println("Adding through GitHub");
+	
 
 	}
