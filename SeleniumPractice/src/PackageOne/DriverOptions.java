@@ -22,6 +22,7 @@ public class DriverOptions {
 		//System.out.println(driver.toString()); //FirefoxDriver: firefox on XP (1bd28006-77a3-468f-91e8-e42f2d84343f)
 		System.out.println(driver.hashCode()); //783191662
 		System.out.println("Hello World");
+		System.out.println("Hello World two");
 		driver1.get("https://www.google.com");
 		driver.close();
 		driver1.quit();
