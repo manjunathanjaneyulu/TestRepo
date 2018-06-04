@@ -12,7 +12,7 @@ public class EmiCalculator {
 		System.setProperty("webdriver.chrome.driver", "E:\\\\DO NOT DELETE\\\\chromedriver_win32\\\\chromedriver.exe");
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("--disable-notifications");
-		options.addArguments("--start-fullscreen");
+		//options.addArguments("--start-fullscreen");
 		WebDriver d=new ChromeDriver(options);
 		Actions a = new Actions(d);
 		d.get("https://emicalculator.net/");
