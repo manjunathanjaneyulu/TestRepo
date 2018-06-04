@@ -50,5 +50,6 @@ public class UsingStoredCookies {
 		}
 		driver.get("https://www.facebook.com");			
 		}
+	System.out.println("Adding through GitHub");
 
 	}
