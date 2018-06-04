@@ -19,6 +19,7 @@ public class test {
 		driver.findElement(By.id("email")).sendKeys("manzu.tg01@gmail.com");
 		driver.findElement(By.id("pass")).sendKeys("ManjunathA@01");
 		driver.findElement(By.id("loginbutton")).click();
+		System.out.println("Adding through GitHUB");
 		
 
 	}
