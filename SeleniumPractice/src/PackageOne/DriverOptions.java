@@ -14,7 +14,7 @@ public class DriverOptions {
 		Thread.sleep(10000);
 		System.out.println(driver.getCurrentUrl()); //https://www.facebook.com/
 		//System.out.println(driver.getPageSource());
-		System.out.println(driver.getTitle()); //Facebook – log in or sign up
+		//System.out.println(driver.getTitle()); //Facebook – log in or sign up
 		System.out.println(driver.getWindowHandle()); //4294967297
 		System.out.println(driver.getWindowHandles()); //[4294967297]
 		System.out.println(driver.getClass()); //class org.openqa.selenium.firefox.FirefoxDriver
